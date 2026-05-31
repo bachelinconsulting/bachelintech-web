@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contactez Bachelin Tech — Yaoundé, Cameroun.">
+  <title data-i18n="meta.title.contact">Contact — Bachelin Tech</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="icon" type="image/png" href="assets/images/logo-btech.png">
+</head>
+<body>
+
+  <nav id="main-nav">
+    <a href="index.html" class="nav-brand"><img src="assets/images/logo-btech.png" alt="Bachelin Tech" class="nav-logo"></a>
+    <ul class="nav-links">
+      <li><a href="index.html"    data-i18n="nav.home">Accueil</a></li>
+      <li><a href="projets.html"  data-i18n="nav.projects">Projets</a></li>
+      <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+      <li><a href="a-propos.html" data-i18n="nav.about">À propos</a></li>
+      <li><a href="contact.html"  data-i18n="nav.contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="lang-toggle" id="lang-toggle">EN</button>
+      <button class="nav-burger" id="nav-burger" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+  <div class="nav-mobile" id="mobile-nav">
+    <button class="nav-mobile-close" id="mobile-nav-close">✕</button>
+    <a href="index.html"    data-i18n="nav.home">Accueil</a>
+    <a href="projets.html"  data-i18n="nav.projects">Projets</a>
+    <a href="services.html" data-i18n="nav.services">Services</a>
+    <a href="a-propos.html" data-i18n="nav.about">À propos</a>
+    <a href="contact.html"  data-i18n="nav.contact">Contact</a>
+  </div>
+
+  <main>
+
+    <header class="page-hero">
+      <p class="eyebrow" data-i18n="contact.eyebrow">Travaillons ensemble</p>
+      <h1 data-i18n="contact.title">Parlons-en</h1>
+      <p style="margin-top:14px;max-width:420px" data-i18n="contact.sub">Un projet, une idée, une question — nous sommes à l'écoute.</p>
+    </header>
+
+    <div class="contact-layout">
+
+      <!-- FORMULAIRE -->
+      <div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="name" data-i18n="contact.form.name">Votre nom</label>
+            <input class="form-input" id="name" name="name" type="text" required
+              data-i18n-placeholder="contact.form.name" placeholder="Votre nom">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email" data-i18n="contact.form.email">Votre email</label>
+            <input class="form-input" id="email" name="email" type="email" required
+              data-i18n-placeholder="contact.form.email" placeholder="Votre email">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="subject" data-i18n="contact.form.subject">Sujet</label>
+            <input class="form-input" id="subject" name="subject" type="text"
+              data-i18n-placeholder="contact.form.subject" placeholder="Sujet">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message" data-i18n="contact.form.message">Votre message</label>
+            <textarea class="form-textarea" id="message" name="message" rows="6" required
+              data-i18n-placeholder="contact.form.message" placeholder="Votre message"></textarea>
+          </div>
+          <button type="submit" class="btn-primary form-submit" data-i18n="contact.form.send">Envoyer</button>
+        </form>
+        <p id="form-success" data-i18n="contact.form.success">Message reçu — nous vous répondons sous 48h.</p>
+      </div>
+
+      <!-- COORDONNÉES -->
+      <div class="contact-info">
+        <h3 data-i18n="contact.info.title">Coordonnées</h3>
+        <div class="contact-info-item">
+          <span class="info-label" data-i18n="contact.info.email.label">Email</span>
+          <span class="info-value">
+            <a href="mailto:contact@bachelintech.com" data-i18n="contact.info.email.value">contact@bachelintech.com</a>
+          </span>
+        </div>
+        <div class="contact-info-item">
+          <span class="info-label" data-i18n="contact.info.location.label">Adresse</span>
+          <span class="info-value" data-i18n="contact.info.location.value">Yaoundé, Cameroun</span>
+        </div>
+        <div class="contact-info-item">
+          <span class="info-label" data-i18n="contact.info.hours.label">Disponibilité</span>
+          <span class="info-value" data-i18n="contact.info.hours.value">Lun – Ven, 8h – 18h (WAT)</span>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer id="main-footer">
+    <img src="assets/images/logo-btech.png" alt="Bachelin Tech" class="footer-logo">
+    <p class="footer-copy" data-i18n="footer.copy">© 2025 Bachelin Tech · Yaoundé, Cameroun</p>
+    <p class="footer-copy">bachelintech.com</p>
+  </footer>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
