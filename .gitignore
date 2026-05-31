@@ -1,0 +1,5 @@
+.DS_Store
+.superpowers/
+*.backup
+*.bak
+node_modules/
