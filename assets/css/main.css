@@ -67,7 +67,7 @@ p { font-family: var(--font-sans); font-weight: 300; line-height: 1.75; color: v
   padding: 32px 52px;
   display: flex; justify-content: space-between; align-items: center;
 }
-.footer-logo { height: 52px; width: auto; opacity: 0.4; filter: brightness(10); }
+.footer-logo { height: 52px; width: auto; filter: invert(1) grayscale(1); opacity: 0.65; }
 .footer-copy { font-family: var(--font-sans); font-size: 11px; color: rgba(245,240,235,0.28); }
 
 /* ─── BUTTONS ────────────────────────────────────────────── */
